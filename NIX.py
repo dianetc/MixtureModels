@@ -54,9 +54,9 @@ class NIX:
 def main():
 	m =  float(sys.argv[1])
 	k =  float(sys.argv[2])
-	v =  float(sys.argv[3])
-	s2 = float(sys.argv[4])
-	nix = NIX(m,k,v,s2)
+	s2 =  float(sys.argv[3])
+	v = float(sys.argv[4])
+	nix = NIX(m,k,s2,v)
 	nix.plotting()
 
 if __name__ == "__main__":
