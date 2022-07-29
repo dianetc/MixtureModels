@@ -1,3 +1,5 @@
+# pretty much https://github.com/probml/pyprobml/blob/master/deprecated/scripts/nix_plots.py
+
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
